@@ -14,7 +14,7 @@ src/qualidade.py               -> valida a base e gera o relatorio de qualidade
 dados/entrada/                 -> arquivos mensais baixados
 dados/bruto/despesas_bruto.parquet   -> base consolidada (saida)
 dados/tratado/relatorio_qualidade.md -> relatorio de qualidade (saida)
-.github/workflows/pipeline.yml -> execucao automatica semanal (GitHub Actions)
+.github/workflows/pipeline.yml -> execucao automatica diaria (GitHub Actions)
 ```
 
 ---
@@ -95,7 +95,7 @@ python -c "import pandas as pd; d=pd.read_parquet('dados/bruto/despesas_bruto.pa
 - Acompanhe a execucao. Ao terminar com o check verde, a base atualizada
   aparece em `dados/bruto/` no repositorio.
 
-A partir dai o pipeline roda sozinho **toda segunda-feira**.
+A partir dai o pipeline roda sozinho **todo dia**.
 
 ---
 
