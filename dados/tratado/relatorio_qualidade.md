@@ -1,6 +1,6 @@
 # Relatorio de qualidade da base bruta - RadarGov
 
-Gerado em: 17/09/2026 10:47
+Gerado em: 18/09/2026 10:22
 Arquivo analisado: `despesas_bruto.parquet`
 
 ## Visao geral
@@ -8,7 +8,7 @@ Arquivo analisado: `despesas_bruto.parquet`
 - Linhas: **434**
 - Orgaos distintos: **6**
 - Meses cobertos: **6** (2026-03 a 2026-08)
-- Valor total executado: **R$ 327,740,632,686.92**
+- Valor total executado: **R$ 320,324,325,760.97**
 
 ## Validacao de schema (Pandera)
 
@@ -34,9 +34,9 @@ Arquivo analisado: `despesas_bruto.parquet`
 
 | area | valor (R$) |
 |---|---|
-| educacao | 130,605,513,004.52 |
-| infraestrutura | 62,615,768,982.41 |
-| saude | 134,519,350,699.99 |
+| educacao | 124,370,434,462.50 |
+| infraestrutura | 61,892,687,437.34 |
+| saude | 134,061,203,861.13 |
 
 ## Cobertura por mes
 
@@ -47,4 +47,4 @@ Arquivo analisado: `despesas_bruto.parquet`
 | 2026-05 | 74 | 58,416,672,114.96 |
 | 2026-06 | 73 | 58,373,567,326.27 |
 | 2026-07 | 74 | 59,419,723,104.04 |
-| 2026-08 | 72 | 59,672,585,164.15 |
+| 2026-08 | 72 | 52,256,278,238.20 |
