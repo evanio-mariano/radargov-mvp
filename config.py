@@ -61,3 +61,33 @@ DIR_TRATADO = RAIZ / "dados" / "tratado"     # relatorio de qualidade
 ARQ_DE_PARA = RAIZ / "de_para_orgao_area.csv"
 ARQ_BASE_BRUTA = DIR_BRUTO / "despesas_bruto.parquet"
 ARQ_RELATORIO  = DIR_TRATADO / "relatorio_qualidade.md"
+
+# ----------------------------------------------------------------------
+# 7. PILOTO - RANKING DE FAVORECIDOS (Sprint 2, escopo restrito)
+#    Testa se e viavel identificar os maiores favorecidos de um orgao
+#    em um mes, via API do Portal (endpoint paginado, exige chave).
+#    Precisa de um arquivo .env na raiz do projeto com:
+#      PORTAL_API_KEY=sua_chave_aqui
+#    (veja .env.example). O .env nunca e enviado ao GitHub.
+# ----------------------------------------------------------------------
+FAV_ORGAO_SUPERIOR = "68000"   # codigo SIAFI do orgao piloto (68000 = Ministerio de Portos e Aeroportos)
+FAV_MES_ANO = "08/2026"        # mes piloto, formato MM/AAAA
+FAV_MAX_PAGINAS = 500          # trava de seguranca contra loop infinito
+
+ARQ_FAV_BRUTO   = DIR_BRUTO   / "favorecidos_piloto_bruto.parquet"
+ARQ_FAV_RANKING = DIR_TRATADO / "ranking_favorecidos_piloto.md"
+
+# ----------------------------------------------------------------------
+# 8. FAVORECIDOS POR AREA (producao)
+#    Cobre TODOS os orgaos de uma area (de_para_orgao_area.csv), na
+#    mesma janela de MESES_JANELA. Testado e viavel apenas para
+#    "infraestrutura" - saude e educacao tem volume muito maior por mes
+#    (medido: saude ~2.500-3.000 paginas; educacao ~16.000-32.000
+#    paginas; infraestrutura ~600-650 paginas) e ficam fora do MVP.
+#    Ver DICIONARIO_DE_DADOS.md para o detalhe da medicao.
+# ----------------------------------------------------------------------
+FAV_AREA = "infraestrutura"
+FAV_MAX_PAGINAS_POR_COMBO = 800   # trava de seguranca por (orgao, mes)
+
+ARQ_FAV_INFRA_BRUTO   = DIR_BRUTO   / "favorecidos_infraestrutura_bruto.parquet"
+ARQ_FAV_INFRA_RANKING = DIR_TRATADO / "ranking_favorecidos_infraestrutura.md"

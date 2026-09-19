@@ -51,7 +51,50 @@ Uma linha por combinacao **mes x area x orgao x funcao**, com o `Valor Pago` som
 API de Dados do Portal da Transparencia
 - Base: `https://api.portaldatransparencia.gov.br/api-de-dados`
 - Cabecalho de autenticacao: `chave-api-dados: <token>`
-- Cadastro do token (gratuito): https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
+- Cadastro do token (gratuito, requer login Gov.br nivel Prata/Ouro ou CPF+senha
+  com verificacao em duas etapas): https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
+- Limites (confirmados set/2026): 400 requisicoes/min (06h-23h59), 700/min (00h-05h59);
+  uso acima disso suspende a chave por 8h.
 - Endpoint relevante: `/despesas/por-orgao` (parametros `codigoOrgao`, `mesAno`, `pagina`)
 - Limitacoes: cota de requisicoes por minuto e paginacao; melhor para consultas pontuais
   do que para carga de periodo completo. Por isso o MVP usa os arquivos mensais.
+
+## Ranking de favorecidos (Sprint 2 - escopo restrito a infraestrutura)
+
+Fonte: endpoint `GET /api-de-dados/despesas/recursos-recebidos` da API do Portal
+(mesma API de Dados acima, mesma chave e mesmos limites de requisicao).
+
+Diferente do arquivo de Execucao da Despesa, este endpoint identifica o
+**favorecido** (quem recebeu o pagamento): nome, CPF/CNPJ, orgao, mes e valor.
+Nao existe parametro de ordenacao por valor - para obter um ranking correto e
+preciso percorrer **todas** as paginas do periodo/orgao (paginas de 15
+registros cada) e ordenar localmente.
+
+**Medicao de volume por area (agosto/2026, 1 mes, todos os orgaos da area):**
+
+| Area | Paginas estimadas/mes | Registros estimados/mes |
+|---|---|---|
+| Infraestrutura (4 orgaos) | ~600-650 | ~9.500 |
+| Saude (1 orgao) | ~2.500-3.000 | ~37.500-45.000 |
+| Educacao (1 orgao) | ~16.000-32.000 | ~240.000-480.000 |
+
+Saude e educacao tem volume muito maior porque envolvem pagamento a um grande
+numero de pessoas fisicas (profissionais de saude, bolsistas, escolas e
+municipios via FUNDEB/PNAE) - inviavel de coletar de forma completa dentro do
+prazo do MVP. **Por isso, o ranking de favorecidos no MVP cobre apenas a area
+infraestrutura**, onde o volume e baixo o suficiente para uma coleta completa
+e correta (~61 mil registros brutos nos 6 meses da janela, sem atingir o
+limite de seguranca do script). Saude e educacao ficam registradas como
+evolucao futura do produto.
+
+Implementacao: `src/coleta_favorecidos.py` (producao, cobre todos os orgaos
+da area configurada em `config.FAV_AREA`, na janela de `config.MESES_JANELA`)
+e `src/coleta_favorecidos_piloto.py` (usado para medir o volume por
+orgao/mes antes de decidir o escopo).
+
+Achado metodologico: os maiores favorecidos de infraestrutura sao bancos
+publicos federais (Caixa Economica Federal, BNDES, Banco do Nordeste, Banco
+do Brasil, Banco da Amazonia) atuando como agentes financeiros de programas
+(habitacao, financiamento a empreendimentos, fundos constitucionais de
+desenvolvimento regional) - nao empreiteiras diretamente. Alguns registros
+aparecem como "SEM INFORMACAO" (favorecido nao identificado pelo Portal).
