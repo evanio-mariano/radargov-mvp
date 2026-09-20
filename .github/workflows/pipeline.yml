@@ -1,6 +1,6 @@
 name: RadarGov - pipeline de ingestao
 
-# Roda toda segunda-feira as 06:00 UTC (03:00 em Brasilia)
+# Roda todo dia as 06:00 (horario UTC = 03:00 em Brasilia)
 # e tambem pode ser disparado manualmente na aba "Actions".
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: write        # necessario para o passo de commit da base atualizada
 
 jobs:
   ingestao:
@@ -30,6 +30,18 @@ jobs:
 
       - name: Relatorio de qualidade
         run: python src/qualidade.py
+
+      - name: Tratamento (base curada)
+        run: python src/tratamento.py
+
+      - name: Calculo dos indicadores
+        run: python src/indicadores.py
+
+      - name: Sinalizacao de despesa atipica
+        run: python src/sinalizacao.py
+
+      - name: Testes automatizados dos indicadores
+        run: python src/testes_indicadores.py
 
       - name: Commit da base atualizada
         run: |
