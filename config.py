@@ -91,3 +91,21 @@ FAV_MAX_PAGINAS_POR_COMBO = 800   # trava de seguranca por (orgao, mes)
 
 ARQ_FAV_INFRA_BRUTO   = DIR_BRUTO   / "favorecidos_infraestrutura_bruto.parquet"
 ARQ_FAV_INFRA_RANKING = DIR_TRATADO / "ranking_favorecidos_infraestrutura.md"
+
+# ----------------------------------------------------------------------
+# 9. TRATAMENTO (Sprint 2) - bases curadas para os indicadores
+# ----------------------------------------------------------------------
+ARQ_DESPESAS_TRATADA = DIR_TRATADO / "despesas_tratada.parquet"
+ARQ_FAV_TRATADO      = DIR_TRATADO / "favorecidos_tratado.parquet"
+ARQ_CADERNO_INDICADORES = DIR_TRATADO / "caderno_indicadores.md"
+
+# ----------------------------------------------------------------------
+# 10. SINALIZACAO DE DESPESA ATIPICA (Sprint 2)
+#    Regra estatistica simples (sem classificacao automatica/ML):
+#    marca como atipico o par (orgao, funcao) cuja variacao percentual
+#    de um mes para o outro ultrapassa o limiar abaixo, em modulo.
+# ----------------------------------------------------------------------
+SINALIZACAO_LIMIAR_PCT = 50   # variacao mes a mes acima disso (%) e sinalizada
+
+ARQ_DESPESAS_SINALIZADA = DIR_TRATADO / "despesas_sinalizada.parquet"
+ARQ_RELATORIO_ATIPICOS  = DIR_TRATADO / "relatorio_atipicos.md"
