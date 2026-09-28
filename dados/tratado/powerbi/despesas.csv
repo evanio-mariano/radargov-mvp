@@ -1,0 +1,435 @@
+ano_mes,ano,mes,area,codigo_orgao,orgao,funcao,valor
+2026-03,2026,3,educacao,26000,Ministério da Educação,Administração,474113.58
+2026-03,2026,3,educacao,26000,Ministério da Educação,Agricultura,1894000.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Assistência social,6400344.93
+2026-03,2026,3,educacao,26000,Ministério da Educação,Ciência e Tecnologia,2691641.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Comunicações,0.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Comércio e serviços,0.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Cultura,551810.54
+2026-03,2026,3,educacao,26000,Ministério da Educação,Defesa nacional,0.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Desporto e lazer,510023.99
+2026-03,2026,3,educacao,26000,Ministério da Educação,Direitos da cidadania,15646069.7
+2026-03,2026,3,educacao,26000,Ministério da Educação,Educação,18985644468.43
+2026-03,2026,3,educacao,26000,Ministério da Educação,Encargos especiais,1876253187.7
+2026-03,2026,3,educacao,26000,Ministério da Educação,Energia,82830.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Essencial à justiça,0.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Gestão ambiental,7139121.51
+2026-03,2026,3,educacao,26000,Ministério da Educação,Indústria,211398.69
+2026-03,2026,3,educacao,26000,Ministério da Educação,Judiciária,121428.21
+2026-03,2026,3,educacao,26000,Ministério da Educação,Organização agrária,17377960.95
+2026-03,2026,3,educacao,26000,Ministério da Educação,Previdência social,1841249824.5
+2026-03,2026,3,educacao,26000,Ministério da Educação,Relações exteriores,38496.06
+2026-03,2026,3,educacao,26000,Ministério da Educação,Saúde,241528202.98
+2026-03,2026,3,educacao,26000,Ministério da Educação,Segurança pública,216457.69
+2026-03,2026,3,educacao,26000,Ministério da Educação,Trabalho,1541765.0
+2026-03,2026,3,educacao,26000,Ministério da Educação,Transporte,220345.32
+2026-03,2026,3,educacao,26000,Ministério da Educação,Urbanismo,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,93928403.69
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,1124704.04
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Assistência social,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,620694.78
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,31549.59
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,2317880598.48
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,215682297.02
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Organização agrária,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,49585977.45
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Relações exteriores,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,1432.26
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,40164602.3
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,0.0
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,614.01
+2026-03,2026,3,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,0.0
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Administração,4746937.04
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Encargos especiais,4822986858.07
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Habitação,4248991.56
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Previdência social,33928.41
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Saneamento,24815109.28
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Segurança pública,0.0
+2026-03,2026,3,infraestrutura,56000,Ministério das Cidades,Urbanismo,149059263.57
+2026-03,2026,3,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,0.0
+2026-03,2026,3,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,21135040.7
+2026-03,2026,3,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,3994246.44
+2026-03,2026,3,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,62610837.67
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Administração,0.0
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Assistência social,0.0
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Comunicações,0.0
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,335358585.61
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Previdência social,24581922.12
+2026-03,2026,3,infraestrutura,39000,Ministério dos Transportes,Transporte,684595725.79
+2026-03,2026,3,saude,36000,Ministério da Saúde,Administração,76862.77
+2026-03,2026,3,saude,36000,Ministério da Saúde,Defesa nacional,190000.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Direitos da cidadania,0.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Educação,0.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Encargos especiais,2179848.81
+2026-03,2026,3,saude,36000,Ministério da Saúde,Gestão ambiental,1190817.49
+2026-03,2026,3,saude,36000,Ministério da Saúde,Organização agrária,0.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Previdência social,955448637.75
+2026-03,2026,3,saude,36000,Ministério da Saúde,Saúde,15801741011.01
+2026-03,2026,3,saude,36000,Ministério da Saúde,Segurança pública,0.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Trabalho,0.0
+2026-03,2026,3,saude,36000,Ministério da Saúde,Urbanismo,34200000.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Administração,316475.54
+2026-04,2026,4,educacao,26000,Ministério da Educação,Agricultura,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Assistência social,11117736.41
+2026-04,2026,4,educacao,26000,Ministério da Educação,Ciência e Tecnologia,3317089.41
+2026-04,2026,4,educacao,26000,Ministério da Educação,Comunicações,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Comércio e serviços,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Cultura,2482253.74
+2026-04,2026,4,educacao,26000,Ministério da Educação,Defesa nacional,44014.7
+2026-04,2026,4,educacao,26000,Ministério da Educação,Desporto e lazer,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Direitos da cidadania,8583619.11
+2026-04,2026,4,educacao,26000,Ministério da Educação,Educação,14847420323.4
+2026-04,2026,4,educacao,26000,Ministério da Educação,Encargos especiais,1875634699.97
+2026-04,2026,4,educacao,26000,Ministério da Educação,Energia,1000000.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Gestão ambiental,1865257.16
+2026-04,2026,4,educacao,26000,Ministério da Educação,Indústria,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Judiciária,19085.05
+2026-04,2026,4,educacao,26000,Ministério da Educação,Legislativa,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Organização agrária,52186735.25
+2026-04,2026,4,educacao,26000,Ministério da Educação,Previdência social,1815462846.03
+2026-04,2026,4,educacao,26000,Ministério da Educação,Relações exteriores,1219733.66
+2026-04,2026,4,educacao,26000,Ministério da Educação,Saneamento,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Saúde,316724177.49
+2026-04,2026,4,educacao,26000,Ministério da Educação,Segurança pública,1279116.28
+2026-04,2026,4,educacao,26000,Ministério da Educação,Trabalho,0.0
+2026-04,2026,4,educacao,26000,Ministério da Educação,Transporte,60849.72
+2026-04,2026,4,educacao,26000,Ministério da Educação,Urbanismo,0.0
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,106871515.1
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,883753.36
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Assistência social,0.0
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,448378.87
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,31017.44
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,2586411557.75
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,117025312.95
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Organização agrária,0.0
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,54106855.71
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,3346.08
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,114111575.32
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,0.0
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,45954.09
+2026-04,2026,4,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,2675.45
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Administração,13659879.15
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Encargos especiais,147519099.55
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Habitação,2660914.07
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Previdência social,46680.97
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Saneamento,20428803.28
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Segurança pública,0.0
+2026-04,2026,4,infraestrutura,56000,Ministério das Cidades,Urbanismo,144060569.51
+2026-04,2026,4,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,33687.77
+2026-04,2026,4,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,23798534.66
+2026-04,2026,4,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,3997336.12
+2026-04,2026,4,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,73083793.67
+2026-04,2026,4,infraestrutura,39000,Ministério dos Transportes,Administração,101238.27
+2026-04,2026,4,infraestrutura,39000,Ministério dos Transportes,Comunicações,3081537.03
+2026-04,2026,4,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,4949659.96
+2026-04,2026,4,infraestrutura,39000,Ministério dos Transportes,Previdência social,31646504.78
+2026-04,2026,4,infraestrutura,39000,Ministério dos Transportes,Transporte,937542945.07
+2026-04,2026,4,saude,36000,Ministério da Saúde,Administração,72132.9
+2026-04,2026,4,saude,36000,Ministério da Saúde,Cultura,45086.59
+2026-04,2026,4,saude,36000,Ministério da Saúde,Direitos da cidadania,800012.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Educação,497075.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Encargos especiais,2348747.69
+2026-04,2026,4,saude,36000,Ministério da Saúde,Gestão ambiental,0.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Organização agrária,3742000.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Previdência social,957269325.03
+2026-04,2026,4,saude,36000,Ministério da Saúde,Saúde,18916014470.9
+2026-04,2026,4,saude,36000,Ministério da Saúde,Segurança pública,0.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Trabalho,0.0
+2026-04,2026,4,saude,36000,Ministério da Saúde,Urbanismo,0.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Administração,3535414.64
+2026-05,2026,5,educacao,26000,Ministério da Educação,Agricultura,5050000.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Assistência social,5879198.36
+2026-05,2026,5,educacao,26000,Ministério da Educação,Ciência e Tecnologia,516572.22
+2026-05,2026,5,educacao,26000,Ministério da Educação,Comunicações,0.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Comércio e serviços,12502524.92
+2026-05,2026,5,educacao,26000,Ministério da Educação,Cultura,642163.01
+2026-05,2026,5,educacao,26000,Ministério da Educação,Defesa nacional,2977461.81
+2026-05,2026,5,educacao,26000,Ministério da Educação,Desporto e lazer,32800.76
+2026-05,2026,5,educacao,26000,Ministério da Educação,Direitos da cidadania,25992137.18
+2026-05,2026,5,educacao,26000,Ministério da Educação,Educação,16029694922.63
+2026-05,2026,5,educacao,26000,Ministério da Educação,Encargos especiais,1832902514.53
+2026-05,2026,5,educacao,26000,Ministério da Educação,Energia,41415.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Essencial à justiça,22500.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Gestão ambiental,27065142.05
+2026-05,2026,5,educacao,26000,Ministério da Educação,Indústria,592730.93
+2026-05,2026,5,educacao,26000,Ministério da Educação,Judiciária,41590.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Legislativa,0.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Organização agrária,27170383.29
+2026-05,2026,5,educacao,26000,Ministério da Educação,Previdência social,1913435161.39
+2026-05,2026,5,educacao,26000,Ministério da Educação,Relações exteriores,514707.41
+2026-05,2026,5,educacao,26000,Ministério da Educação,Saneamento,1670000.0
+2026-05,2026,5,educacao,26000,Ministério da Educação,Saúde,361695618.42
+2026-05,2026,5,educacao,26000,Ministério da Educação,Segurança pública,1915797.14
+2026-05,2026,5,educacao,26000,Ministério da Educação,Trabalho,7006914.15
+2026-05,2026,5,educacao,26000,Ministério da Educação,Transporte,8118163.68
+2026-05,2026,5,educacao,26000,Ministério da Educação,Urbanismo,1135913.66
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,101901374.24
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,4627106.03
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,280349.95
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,7288.15
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Direitos da cidadania,0.0
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,2745267463.62
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,184059361.84
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Organização agrária,0.0
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,51211376.5
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,4714.54
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,112137843.82
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,2997.36
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,685.09
+2026-05,2026,5,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,240084.98
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Administração,4370752.5
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Encargos especiais,3765886422.25
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Habitação,53941453.78
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Previdência social,37935.91
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Saneamento,22686000.4
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Segurança pública,0.0
+2026-05,2026,5,infraestrutura,56000,Ministério das Cidades,Urbanismo,132027726.5
+2026-05,2026,5,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,16861.35
+2026-05,2026,5,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,316326556.87
+2026-05,2026,5,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,4215640.16
+2026-05,2026,5,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,77845172.68
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Administração,841588.27
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Assistência social,0.0
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Comunicações,0.0
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,4143927.23
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Previdência social,30330333.41
+2026-05,2026,5,infraestrutura,39000,Ministério dos Transportes,Transporte,1162143419.64
+2026-05,2026,5,saude,36000,Ministério da Saúde,Administração,92200.09
+2026-05,2026,5,saude,36000,Ministério da Saúde,Assistência social,1600000.0
+2026-05,2026,5,saude,36000,Ministério da Saúde,Cultura,51374.84
+2026-05,2026,5,saude,36000,Ministério da Saúde,Direitos da cidadania,6373098.98
+2026-05,2026,5,saude,36000,Ministério da Saúde,Educação,151035.66
+2026-05,2026,5,saude,36000,Ministério da Saúde,Encargos especiais,2331364.51
+2026-05,2026,5,saude,36000,Ministério da Saúde,Gestão ambiental,0.0
+2026-05,2026,5,saude,36000,Ministério da Saúde,Habitação,669040.0
+2026-05,2026,5,saude,36000,Ministério da Saúde,Organização agrária,0.0
+2026-05,2026,5,saude,36000,Ministério da Saúde,Previdência social,989681631.36
+2026-05,2026,5,saude,36000,Ministério da Saúde,Saúde,28370931871.38
+2026-05,2026,5,saude,36000,Ministério da Saúde,Trabalho,33790.56
+2026-05,2026,5,saude,36000,Ministério da Saúde,Transporte,50523.33
+2026-05,2026,5,saude,36000,Ministério da Saúde,Urbanismo,0.0
+2026-06,2026,6,educacao,26000,Ministério da Educação,Administração,3219364.56
+2026-06,2026,6,educacao,26000,Ministério da Educação,Agricultura,5473822.48
+2026-06,2026,6,educacao,26000,Ministério da Educação,Assistência social,9582538.89
+2026-06,2026,6,educacao,26000,Ministério da Educação,Ciência e Tecnologia,1821732.44
+2026-06,2026,6,educacao,26000,Ministério da Educação,Comunicações,17499.2
+2026-06,2026,6,educacao,26000,Ministério da Educação,Comércio e serviços,842717.18
+2026-06,2026,6,educacao,26000,Ministério da Educação,Cultura,3434826.06
+2026-06,2026,6,educacao,26000,Ministério da Educação,Defesa nacional,1264380.75
+2026-06,2026,6,educacao,26000,Ministério da Educação,Desporto e lazer,400000.0
+2026-06,2026,6,educacao,26000,Ministério da Educação,Direitos da cidadania,45150046.34
+2026-06,2026,6,educacao,26000,Ministério da Educação,Educação,15435727573.6
+2026-06,2026,6,educacao,26000,Ministério da Educação,Encargos especiais,1829840656.22
+2026-06,2026,6,educacao,26000,Ministério da Educação,Essencial à justiça,5293.38
+2026-06,2026,6,educacao,26000,Ministério da Educação,Gestão ambiental,7418355.95
+2026-06,2026,6,educacao,26000,Ministério da Educação,Habitação,0.0
+2026-06,2026,6,educacao,26000,Ministério da Educação,Indústria,1297809.95
+2026-06,2026,6,educacao,26000,Ministério da Educação,Judiciária,547225.19
+2026-06,2026,6,educacao,26000,Ministério da Educação,Organização agrária,51316015.31
+2026-06,2026,6,educacao,26000,Ministério da Educação,Previdência social,1876163144.49
+2026-06,2026,6,educacao,26000,Ministério da Educação,Relações exteriores,827966.84
+2026-06,2026,6,educacao,26000,Ministério da Educação,Saneamento,1672566.37
+2026-06,2026,6,educacao,26000,Ministério da Educação,Saúde,360007346.32
+2026-06,2026,6,educacao,26000,Ministério da Educação,Segurança pública,7509448.26
+2026-06,2026,6,educacao,26000,Ministério da Educação,Trabalho,3709025.85
+2026-06,2026,6,educacao,26000,Ministério da Educação,Transporte,1676975.85
+2026-06,2026,6,educacao,26000,Ministério da Educação,Urbanismo,10600000.0
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,92721431.88
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,1733481.21
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,478728.11
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,29078.95
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,3077988943.5
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,142749303.56
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Organização agrária,0.0
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,53035817.16
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,3698.37
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,83035547.52
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,0.0
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,2979.79
+2026-06,2026,6,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,7473620.17
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Administração,8424020.02
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Encargos especiais,4298751763.15
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Habitação,56937262.02
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Previdência social,39823.2
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Saneamento,47166367.86
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Segurança pública,0.0
+2026-06,2026,6,infraestrutura,56000,Ministério das Cidades,Urbanismo,127071713.19
+2026-06,2026,6,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,16607.71
+2026-06,2026,6,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,250370818.29
+2026-06,2026,6,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,3997637.11
+2026-06,2026,6,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,87986178.47
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Administração,1040634.44
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Comunicações,162044.97
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,4482410.99
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Energia,6315.02
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Previdência social,21255697.83
+2026-06,2026,6,infraestrutura,39000,Ministério dos Transportes,Transporte,1143205387.81
+2026-06,2026,6,saude,36000,Ministério da Saúde,Administração,26665479.54
+2026-06,2026,6,saude,36000,Ministério da Saúde,Assistência social,225000.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Cultura,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Direitos da cidadania,1367579.03
+2026-06,2026,6,saude,36000,Ministério da Saúde,Educação,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Encargos especiais,2655336.17
+2026-06,2026,6,saude,36000,Ministério da Saúde,Gestão ambiental,2168129.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Judiciária,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Organização agrária,700000.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Previdência social,993782830.61
+2026-06,2026,6,saude,36000,Ministério da Saúde,Saúde,28175292311.48
+2026-06,2026,6,saude,36000,Ministério da Saúde,Segurança pública,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Trabalho,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Transporte,0.0
+2026-06,2026,6,saude,36000,Ministério da Saúde,Urbanismo,1017016.66
+2026-07,2026,7,educacao,26000,Ministério da Educação,Administração,9835455.74
+2026-07,2026,7,educacao,26000,Ministério da Educação,Agricultura,9061596.73
+2026-07,2026,7,educacao,26000,Ministério da Educação,Assistência social,18805448.68
+2026-07,2026,7,educacao,26000,Ministério da Educação,Ciência e Tecnologia,435980.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Comunicações,812160.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Comércio e serviços,7649558.62
+2026-07,2026,7,educacao,26000,Ministério da Educação,Cultura,9003348.28
+2026-07,2026,7,educacao,26000,Ministério da Educação,Defesa nacional,326501.86
+2026-07,2026,7,educacao,26000,Ministério da Educação,Desporto e lazer,0.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Direitos da cidadania,31291642.86
+2026-07,2026,7,educacao,26000,Ministério da Educação,Educação,17592755730.17
+2026-07,2026,7,educacao,26000,Ministério da Educação,Encargos especiais,1816747395.54
+2026-07,2026,7,educacao,26000,Ministério da Educação,Energia,185970.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Essencial à justiça,25000.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Gestão ambiental,6946951.19
+2026-07,2026,7,educacao,26000,Ministério da Educação,Habitação,10000000.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Indústria,1351054.43
+2026-07,2026,7,educacao,26000,Ministério da Educação,Judiciária,1086437.88
+2026-07,2026,7,educacao,26000,Ministério da Educação,Organização agrária,15058259.65
+2026-07,2026,7,educacao,26000,Ministério da Educação,Previdência social,2780039901.37
+2026-07,2026,7,educacao,26000,Ministério da Educação,Relações exteriores,612849.55
+2026-07,2026,7,educacao,26000,Ministério da Educação,Saúde,417837735.9
+2026-07,2026,7,educacao,26000,Ministério da Educação,Segurança pública,2010375.48
+2026-07,2026,7,educacao,26000,Ministério da Educação,Trabalho,5303872.0
+2026-07,2026,7,educacao,26000,Ministério da Educação,Transporte,595373.6
+2026-07,2026,7,educacao,26000,Ministério da Educação,Urbanismo,7147694.63
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,114937386.06
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,2694985.24
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,566295.23
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,45761.24
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,2810603504.31
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,258447393.64
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Organização agrária,0.0
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,76162135.21
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Relações exteriores,64000.0
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,999367.6
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,59417609.48
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,5200.0
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,3369.22
+2026-07,2026,7,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,85977258.53
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Administração,6782609.96
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Encargos especiais,9857584767.58
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Habitação,752711264.92
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Previdência social,55016.56
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Saneamento,57139747.13
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-07,2026,7,infraestrutura,56000,Ministério das Cidades,Urbanismo,323146675.35
+2026-07,2026,7,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,19354.06
+2026-07,2026,7,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,681051327.29
+2026-07,2026,7,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,6292238.0
+2026-07,2026,7,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,97458405.11
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Administração,6422.64
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Assistência social,731245.22
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Ciência e Tecnologia,0.0
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Comunicações,3299933.59
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,3984566.65
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Indústria,0.0
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Previdência social,40281717.81
+2026-07,2026,7,infraestrutura,39000,Ministério dos Transportes,Transporte,1095362334.17
+2026-07,2026,7,saude,36000,Ministério da Saúde,Administração,15132357.27
+2026-07,2026,7,saude,36000,Ministério da Saúde,Assistência social,300000.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Cultura,0.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Direitos da cidadania,3694298.11
+2026-07,2026,7,saude,36000,Ministério da Saúde,Educação,3005222.47
+2026-07,2026,7,saude,36000,Ministério da Saúde,Encargos especiais,4874579.98
+2026-07,2026,7,saude,36000,Ministério da Saúde,Gestão ambiental,548500.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Indústria,0.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Organização agrária,0.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Previdência social,1489101340.2
+2026-07,2026,7,saude,36000,Ministério da Saúde,Saúde,18802133620.05
+2026-07,2026,7,saude,36000,Ministério da Saúde,Segurança pública,0.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Transporte,0.0
+2026-07,2026,7,saude,36000,Ministério da Saúde,Urbanismo,20175000.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Administração,5067066.9
+2026-08,2026,8,educacao,26000,Ministério da Educação,Agricultura,820678.02
+2026-08,2026,8,educacao,26000,Ministério da Educação,Assistência social,6473021.62
+2026-08,2026,8,educacao,26000,Ministério da Educação,Ciência e Tecnologia,9125279.45
+2026-08,2026,8,educacao,26000,Ministério da Educação,Comunicações,0.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Comércio e serviços,15927017.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Cultura,7766640.72
+2026-08,2026,8,educacao,26000,Ministério da Educação,Defesa nacional,769238.38
+2026-08,2026,8,educacao,26000,Ministério da Educação,Desporto e lazer,1500000.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Direitos da cidadania,28486200.22
+2026-08,2026,8,educacao,26000,Ministério da Educação,Educação,15525626336.51
+2026-08,2026,8,educacao,26000,Ministério da Educação,Encargos especiais,1884246176.5
+2026-08,2026,8,educacao,26000,Ministério da Educação,Energia,942392.98
+2026-08,2026,8,educacao,26000,Ministério da Educação,Essencial à justiça,67025.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Gestão ambiental,9345107.69
+2026-08,2026,8,educacao,26000,Ministério da Educação,Indústria,1174192.92
+2026-08,2026,8,educacao,26000,Ministério da Educação,Judiciária,55000.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Legislativa,0.0
+2026-08,2026,8,educacao,26000,Ministério da Educação,Organização agrária,98229702.68
+2026-08,2026,8,educacao,26000,Ministério da Educação,Previdência social,1735529939.97
+2026-08,2026,8,educacao,26000,Ministério da Educação,Relações exteriores,558365.81
+2026-08,2026,8,educacao,26000,Ministério da Educação,Saúde,403948522.28
+2026-08,2026,8,educacao,26000,Ministério da Educação,Segurança pública,12081818.38
+2026-08,2026,8,educacao,26000,Ministério da Educação,Trabalho,856333.37
+2026-08,2026,8,educacao,26000,Ministério da Educação,Transporte,8706529.58
+2026-08,2026,8,educacao,26000,Ministério da Educação,Urbanismo,0.0
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Administração,89692617.34
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Agricultura,59317193.51
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Ciência e Tecnologia,149507.4
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Defesa nacional,6058.91
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Educação,0.0
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Encargos especiais,2579366612.34
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Gestão ambiental,163456875.61
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Previdência social,47474329.21
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Relações exteriores,12800.0
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Saneamento,22980.35
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Segurança pública,30249558.87
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Trabalho,0.0
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Transporte,6225.93
+2026-08,2026,8,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,Urbanismo,25329635.63
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Administração,9994417.21
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Encargos especiais,1030225353.24
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Habitação,57540390.06
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Previdência social,36650.15
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Saneamento,29123137.05
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Saúde,0.0
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Segurança pública,3677688.84
+2026-08,2026,8,infraestrutura,56000,Ministério das Cidades,Urbanismo,186764707.46
+2026-08,2026,8,infraestrutura,68000,Ministério de Portos e Aeroportos,Administração,26421.12
+2026-08,2026,8,infraestrutura,68000,Ministério de Portos e Aeroportos,Encargos especiais,8160709394.74
+2026-08,2026,8,infraestrutura,68000,Ministério de Portos e Aeroportos,Previdência social,4159950.65
+2026-08,2026,8,infraestrutura,68000,Ministério de Portos e Aeroportos,Transporte,85833374.89
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Administração,101690.4
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Assistência social,33571.28
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Ciência e Tecnologia,9653.82
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Encargos especiais,4057575.63
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Previdência social,18655760.15
+2026-08,2026,8,infraestrutura,39000,Ministério dos Transportes,Transporte,1442358218.52
+2026-08,2026,8,saude,36000,Ministério da Saúde,Administração,8083753.13
+2026-08,2026,8,saude,36000,Ministério da Saúde,Assistência social,2500614.34
+2026-08,2026,8,saude,36000,Ministério da Saúde,Defesa nacional,254443.85
+2026-08,2026,8,saude,36000,Ministério da Saúde,Direitos da cidadania,1409118.15
+2026-08,2026,8,saude,36000,Ministério da Saúde,Educação,3120.48
+2026-08,2026,8,saude,36000,Ministério da Saúde,Encargos especiais,9430706.37
+2026-08,2026,8,saude,36000,Ministério da Saúde,Gestão ambiental,0.0
+2026-08,2026,8,saude,36000,Ministério da Saúde,Indústria,125026.4
+2026-08,2026,8,saude,36000,Ministério da Saúde,Judiciária,476.65
+2026-08,2026,8,saude,36000,Ministério da Saúde,Organização agrária,1300000.0
+2026-08,2026,8,saude,36000,Ministério da Saúde,Previdência social,974558698.29
+2026-08,2026,8,saude,36000,Ministério da Saúde,Saúde,17472917057.5
+2026-08,2026,8,saude,36000,Ministério da Saúde,Segurança pública,286.75
+2026-08,2026,8,saude,36000,Ministério da Saúde,Trabalho,0.0

@@ -21,7 +21,7 @@ Formula: soma de `valor` agrupado por `orgao`, no periodo completo.
 | saude | Ministério da Saúde | 134,061,203,861.13 |
 | educacao | Ministério da Educação | 124,370,434,462.50 |
 | infraestrutura | Ministério das Cidades | 26,166,390,700.75 |
-| infraestrutura | Ministério da Integração e do Desenvolvime | 18,762,964,752.94 |
+| infraestrutura | Ministério da Integração e do Desenvolvimento Regional | 18,762,964,752.94 |
 | infraestrutura | Ministério de Portos e Aeroportos | 9,964,979,415.53 |
 | infraestrutura | Ministério dos Transportes | 6,998,352,568.12 |
 
