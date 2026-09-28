@@ -26,18 +26,34 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import config as cfg
 
 
-def tratar_despesas(df: pd.DataFrame) -> pd.DataFrame:
+def carregar_orgaos() -> pd.DataFrame:
+    """Tabela de orgaos (codigo e nome completo) a partir do de-para."""
+    dp = pd.read_csv(cfg.ARQ_DE_PARA, sep=";", dtype=str)
+    dp["codigo_orgao"] = dp["codigo_orgao"].str.strip()
+    dp["nome_orgao"] = dp["nome_orgao"].str.strip()
+    return dp
+
+
+def tratar_despesas(df: pd.DataFrame, orgaos: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df["orgao"] = df["orgao"].str.strip()
+    # O Portal corta o nome do orgao em 43 caracteres: recupera codigo e nome
+    # completo pelo prefixo, usando o de-para (busca unica por nome truncado).
+    canon = {}
+    for nome in df["orgao"].unique():
+        achados = orgaos[orgaos["nome_orgao"].str.startswith(nome)]
+        canon[nome] = (achados.iloc[0]["codigo_orgao"], achados.iloc[0]["nome_orgao"]) if len(achados) == 1 else (None, nome)
+    df["codigo_orgao"] = df["orgao"].map(lambda n: canon[n][0])
+    df["orgao"] = df["orgao"].map(lambda n: canon[n][1])
     df["funcao"] = df["funcao"].str.strip()
     df["valor"] = df["valor"].round(2)
     df["ano"] = df["ano_mes"].str[:4].astype(int)
     df["mes"] = df["ano_mes"].str[5:7].astype(int)
     df = df.sort_values(["ano_mes", "area", "orgao", "funcao"]).reset_index(drop=True)
-    return df[["ano_mes", "ano", "mes", "area", "orgao", "funcao", "valor"]]
+    return df[["ano_mes", "ano", "mes", "area", "codigo_orgao", "orgao", "funcao", "valor"]]
 
 
-def tratar_favorecidos(df: pd.DataFrame) -> pd.DataFrame:
+def tratar_favorecidos(df: pd.DataFrame, orgaos: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df["ano_mes"] = df["anoMes"].astype(str).str.slice(0, 4) + "-" + df["anoMes"].astype(str).str.slice(4, 6)
     df["ano"] = df["ano_mes"].str[:4].astype(int)
@@ -61,6 +77,9 @@ def tratar_favorecidos(df: pd.DataFrame) -> pd.DataFrame:
         "nomePessoa": "favorecido",
         "tipoPessoa": "tipo_favorecido",
     })
+    # nome do orgao padronizado pelo de-para (mesma grafia da base de despesas)
+    nomes = dict(zip(orgaos["codigo_orgao"], orgaos["nome_orgao"]))
+    tratado["orgao"] = tratado["codigo_orgao"].map(nomes).fillna(tratado["orgao"])
     tratado["valor"] = tratado["valor"].round(2)
     tratado = tratado.sort_values(["ano_mes", "orgao", "valor"], ascending=[True, True, False]).reset_index(drop=True)
     cols = ["ano_mes", "ano", "mes", "area", "codigo_orgao", "orgao",
@@ -81,8 +100,9 @@ def main() -> int:
     despesas = pd.read_parquet(cfg.ARQ_BASE_BRUTA)
     favorecidos = pd.read_parquet(cfg.ARQ_FAV_INFRA_BRUTO)
 
-    despesas_tratada = tratar_despesas(despesas)
-    favorecidos_tratado = tratar_favorecidos(favorecidos)
+    orgaos = carregar_orgaos()
+    despesas_tratada = tratar_despesas(despesas, orgaos)
+    favorecidos_tratado = tratar_favorecidos(favorecidos, orgaos)
 
     cfg.DIR_TRATADO.mkdir(parents=True, exist_ok=True)
     despesas_tratada.to_parquet(cfg.ARQ_DESPESAS_TRATADA, index=False)

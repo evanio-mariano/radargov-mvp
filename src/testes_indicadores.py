@@ -119,6 +119,35 @@ def main() -> int:
         (sinalizada.loc[sinalizada["atipico"], "variacao_pct"].abs() > cfg.SINALIZACAO_LIMIAR_PCT).all(),
     )
 
+    print("\n=== Exportacao para o Power BI ===")
+    de_para = pd.read_csv(cfg.ARQ_DE_PARA, sep=";", dtype=str)
+    nomes_completos = set(de_para["nome_orgao"].str.strip())
+    checar(
+        "todo orgao de despesas_tratada tem codigo e nome completo (sem truncar em 43 caracteres)",
+        despesas_tratada["codigo_orgao"].notna().all() and set(despesas_tratada["orgao"]) <= nomes_completos,
+        f"orgaos: {sorted(despesas_tratada['orgao'].unique())[:2]}...",
+    )
+    checar(
+        "favorecidos_tratado usa a mesma grafia de orgao da base de despesas",
+        set(fav_tratado["orgao"]) <= set(despesas_tratada["orgao"]),
+    )
+    arquivos = {
+        "despesas.csv": len(despesas_tratada),
+        "favorecidos.csv": len(fav_tratado),
+        "sinalizacao.csv": len(sinalizada),
+    }
+    for nome, esperado in arquivos.items():
+        caminho = cfg.DIR_POWERBI / nome
+        if caminho.exists():
+            lido = len(pd.read_csv(caminho, encoding="utf-8-sig"))
+            checar(f"{nome} tem o mesmo numero de linhas da base de origem", lido == esperado,
+                   f"csv={lido} base={esperado}")
+        else:
+            checar(f"{nome} foi gerado", False, "rode src/exporta_powerbi.py")
+    meta = cfg.DIR_POWERBI / "metadados.csv"
+    checar("metadados.csv registra a data da ultima atualizacao",
+           meta.exists() and len(pd.read_csv(meta, encoding="utf-8-sig")) == 1)
+
     total = len(resultados)
     aprovados = sum(1 for _, ok, _ in resultados if ok)
     print(f"\n{aprovados}/{total} testes aprovados")

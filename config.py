@@ -102,10 +102,15 @@ ARQ_CADERNO_INDICADORES = DIR_TRATADO / "caderno_indicadores.md"
 # ----------------------------------------------------------------------
 # 10. SINALIZACAO DE DESPESA ATIPICA (Sprint 2)
 #    Regra estatistica simples (sem classificacao automatica/ML):
-#    marca como atipico o par (orgao, funcao) cuja variacao percentual
+#    marca como atipico o orgao cuja variacao percentual do total pago
 #    de um mes para o outro ultrapassa o limiar abaixo, em modulo.
 # ----------------------------------------------------------------------
 SINALIZACAO_LIMIAR_PCT = 50   # variacao mes a mes acima disso (%) e sinalizada
 
 ARQ_DESPESAS_SINALIZADA = DIR_TRATADO / "despesas_sinalizada.parquet"
 ARQ_RELATORIO_ATIPICOS  = DIR_TRATADO / "relatorio_atipicos.md"
+
+# ----------------------------------------------------------------------
+# 11. DASHBOARD (Sprint 3) - arquivos CSV para o Power BI
+# ----------------------------------------------------------------------
+DIR_POWERBI = DIR_TRATADO / "powerbi"

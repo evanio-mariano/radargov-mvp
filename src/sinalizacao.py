@@ -39,12 +39,12 @@ def main() -> int:
 
     # agrega ao nivel orgao (serie densa: todo orgao tem os 6 meses)
     por_orgao_mes = (
-        df.groupby(["area", "orgao", "ano_mes"], as_index=False)["valor"].sum()
+        df.groupby(["area", "codigo_orgao", "orgao", "ano_mes"], as_index=False)["valor"].sum()
         .sort_values(["area", "orgao", "ano_mes"])
         .reset_index(drop=True)
     )
 
-    grupo = por_orgao_mes.groupby(["area", "orgao"])["valor"]
+    grupo = por_orgao_mes.groupby(["area", "codigo_orgao", "orgao"])["valor"]
     por_orgao_mes["valor_mes_anterior"] = grupo.shift(1)
     por_orgao_mes["variacao_pct"] = (
         por_orgao_mes["valor"] / por_orgao_mes["valor_mes_anterior"] - 1

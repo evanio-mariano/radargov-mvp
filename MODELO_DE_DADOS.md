@@ -16,7 +16,8 @@ Uma linha por combinacao **mes x area x orgao x funcao**.
 | ano | inteiro | tempo | ano, derivado de ano_mes |
 | mes | inteiro | tempo | mes (1-12), derivado de ano_mes |
 | area | texto | area | saude / educacao / infraestrutura |
-| orgao | texto | orgao | nome do orgao superior (Portal corta em 43 caracteres) |
+| codigo_orgao | texto | orgao | codigo SIAFI do orgao superior |
+| orgao | texto | orgao | nome completo do orgao superior (o Portal corta em 43 caracteres; o nome completo vem do de-para) |
 | funcao | texto | - | funcao de governo (detalhe da despesa) |
 | valor | numero | - | Valor Pago (R$), medida do fato |
 
@@ -62,3 +63,20 @@ recebeu" (favorecidos_tratado) pode ser feito com um `merge` por
 - "SEM INFORMACAO" como nome de favorecido e um valor legitimo da fonte
   (o Portal nao identifica o favorecido nesses casos), nao um erro do
   pipeline.
+
+## Camada de consumo do dashboard (Sprint 3)
+
+`src/exporta_powerbi.py` grava em `dados/tratado/powerbi/` seis arquivos CSV
+(UTF-8, virgula, ponto decimal), lidos pelo Power BI direto do GitHub:
+
+| Arquivo | Conteudo |
+|---|---|
+| despesas.csv | fato de despesas (igual a despesas_tratada.parquet) |
+| favorecidos.csv | fato de favorecidos (igual a favorecidos_tratado.parquet) |
+| sinalizacao.csv | serie mensal por orgao com variacao percentual e marca de atipico (Sim/Nao e 0/1) |
+| dim_orgao.csv | codigo, nome completo e area de cada orgao |
+| dim_tempo.csv | mes de referencia (ano_mes, data, ano, mes, indice_mes, mes_rotulo) |
+| metadados.csv | data/hora da ultima atualizacao (horario de Brasilia), periodo coberto, contagem de linhas |
+
+Relacionamentos no Power BI: `dim_orgao[codigo_orgao]` e `dim_tempo[ano_mes]`
+(um para muitos) com despesas, favorecidos e sinalizacao.
