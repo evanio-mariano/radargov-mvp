@@ -40,6 +40,9 @@ jobs:
       - name: Sinalizacao de despesa atipica
         run: python src/sinalizacao.py
 
+      - name: Exportacao para o Power BI (CSV)
+        run: python src/exporta_powerbi.py
+
       - name: Testes automatizados dos indicadores
         run: python src/testes_indicadores.py
 
