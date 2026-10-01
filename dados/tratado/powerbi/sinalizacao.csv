@@ -1,37 +1,37 @@
 area,codigo_orgao,orgao,ano_mes,valor,valor_mes_anterior,variacao_pct,atipico,atipico_flag
-educacao,26000,Ministério da Educação,2026-03,22999793490.780003,,,Nao,0
-educacao,26000,Ministério da Educação,2026-04,18938734012.92,22999793490.780003,-17.656938874203256,Nao,0
+educacao,26000,Ministério da Educação,2026-04,18938734012.92,,,Nao,0
 educacao,26000,Ministério da Educação,2026-05,20270151747.18,18938734012.92,7.0301305955916105,Nao,0
 educacao,26000,Ministério da Educação,2026-06,19659526331.48,20270151747.18,-3.0124363315876534,Nao,0
 educacao,26000,Ministério da Educação,2026-07,22744926294.16,19659526331.48,15.694172436593634,Nao,0
 educacao,26000,Ministério da Educação,2026-08,19757302585.98,22744926294.16,-13.13534134840043,Nao,0
-infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-03,2719020873.62,,,Nao,0
-infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-04,2979941942.12,2719020873.62,9.596140692830346,Nao,0
+educacao,26000,Ministério da Educação,2026-09,16072801899.429998,19757302585.98,-18.648804261187777,Nao,0
+infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-04,2979941942.12,,,Nao,0
 infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-05,3199740646.12,2979941942.12,7.375939138050125,Nao,0
 infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-06,3459252630.2200003,3199740646.12,8.110406836087925,Nao,0
 infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-07,3409924265.7599998,3459252630.2200003,-1.4259832898316893,Nao,0
 infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-08,2995084395.1,3409924265.7599998,-12.165662294190005,Nao,0
-infraestrutura,56000,Ministério das Cidades,2026-03,5005891087.929999,,,Nao,0
-infraestrutura,56000,Ministério das Cidades,2026-04,328375946.53,5005891087.929999,-93.44020992942163,Sim,1
+infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,2026-09,1910749782.7,2995084395.1,-36.203808285802786,Nao,0
+infraestrutura,56000,Ministério das Cidades,2026-04,328375946.53,,,Nao,0
 infraestrutura,56000,Ministério das Cidades,2026-05,3978950291.34,328375946.53,1111.7057699829084,Sim,1
 infraestrutura,56000,Ministério das Cidades,2026-06,4538390949.440001,3978950291.34,14.060006211125508,Nao,0
 infraestrutura,56000,Ministério das Cidades,2026-07,10997420081.499998,4538390949.440001,142.31980461835238,Sim,1
 infraestrutura,56000,Ministério das Cidades,2026-08,1317362344.01,10997420081.499998,-88.02116919925534,Sim,1
-infraestrutura,68000,Ministério de Portos e Aeroportos,2026-03,87740124.81,,,Nao,0
-infraestrutura,68000,Ministério de Portos e Aeroportos,2026-04,100913352.22,87740124.81,15.013914601245926,Nao,0
+infraestrutura,56000,Ministério das Cidades,2026-09,5128097037.780001,1317362344.01,289.27004867698525,Sim,1
+infraestrutura,68000,Ministério de Portos e Aeroportos,2026-04,100913352.22,,,Nao,0
 infraestrutura,68000,Ministério de Portos e Aeroportos,2026-05,398404231.06000006,100913352.22,294.79833173259743,Sim,1
 infraestrutura,68000,Ministério de Portos e Aeroportos,2026-06,342371241.58,398404231.06000006,-14.064356026269575,Nao,0
 infraestrutura,68000,Ministério de Portos e Aeroportos,2026-07,784821324.4599999,342371241.58,129.23108869721324,Sim,1
 infraestrutura,68000,Ministério de Portos e Aeroportos,2026-08,8250729141.4,784821324.4599999,951.287584097814,Sim,1
-infraestrutura,39000,Ministério dos Transportes,2026-03,1044536233.52,,,Nao,0
-infraestrutura,39000,Ministério dos Transportes,2026-04,977321885.11,1044536233.52,-6.434850822119708,Nao,0
+infraestrutura,68000,Ministério de Portos e Aeroportos,2026-09,201271849.22,8250729141.4,-97.56055682145629,Sim,1
+infraestrutura,39000,Ministério dos Transportes,2026-04,977321885.11,,,Nao,0
 infraestrutura,39000,Ministério dos Transportes,2026-05,1197459268.5500002,977321885.11,22.524552738857693,Nao,0
 infraestrutura,39000,Ministério dos Transportes,2026-06,1170152491.06,1197459268.5500002,-2.2803930127048067,Nao,0
 infraestrutura,39000,Ministério dos Transportes,2026-07,1143666220.0800002,1170152491.06,-2.2634888343490034,Nao,0
 infraestrutura,39000,Ministério dos Transportes,2026-08,1465216469.8,1143666220.0800002,28.115742519483277,Nao,0
-saude,36000,Ministério da Saúde,2026-03,16795027177.83,,,Nao,0
-saude,36000,Ministério da Saúde,2026-04,19880788850.11,16795027177.83,18.3730674538789,Nao,0
+infraestrutura,39000,Ministério dos Transportes,2026-09,928103164.5,1465216469.8,-36.65760768941637,Nao,0
+saude,36000,Ministério da Saúde,2026-04,19880788850.11,,,Nao,0
 saude,36000,Ministério da Saúde,2026-05,29371965930.71,19880788850.11,47.74044507065667,Nao,0
 saude,36000,Ministério da Saúde,2026-06,29203873682.489998,29371965930.71,-0.5722880402916797,Nao,0
 saude,36000,Ministério da Saúde,2026-07,20338964918.079998,29203873682.489998,-30.35524965212134,Nao,0
 saude,36000,Ministério da Saúde,2026-08,18470583301.91,20338964918.079998,-9.186217802603757,Nao,0
+saude,36000,Ministério da Saúde,2026-09,20971221713.260002,18470583301.91,13.538491830365839,Nao,0
