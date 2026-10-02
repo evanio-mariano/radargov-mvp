@@ -11,8 +11,8 @@ Total de linhas avaliadas: 36 | Sinalizadas: 8
 | infraestrutura | Ministério das Cidades | 2026-05 | 3,978,950,291.34 | 328,375,946.53 | +1111.7% |
 | infraestrutura | Ministério de Portos e Aeroportos | 2026-08 | 8,250,729,141.40 | 784,821,324.46 | +951.3% |
 | infraestrutura | Ministério de Portos e Aeroportos | 2026-05 | 398,404,231.06 | 100,913,352.22 | +294.8% |
-| infraestrutura | Ministério das Cidades | 2026-09 | 5,128,097,037.78 | 1,317,362,344.01 | +289.3% |
+| infraestrutura | Ministério das Cidades | 2026-09 | 5,159,782,608.74 | 1,317,362,344.01 | +291.7% |
 | infraestrutura | Ministério das Cidades | 2026-07 | 10,997,420,081.50 | 4,538,390,949.44 | +142.3% |
 | infraestrutura | Ministério de Portos e Aeroportos | 2026-07 | 784,821,324.46 | 342,371,241.58 | +129.2% |
-| infraestrutura | Ministério de Portos e Aeroportos | 2026-09 | 201,271,849.22 | 8,250,729,141.40 | -97.6% |
+| infraestrutura | Ministério de Portos e Aeroportos | 2026-09 | 218,620,831.84 | 8,250,729,141.40 | -97.4% |
 | infraestrutura | Ministério das Cidades | 2026-08 | 1,317,362,344.01 | 10,997,420,081.50 | -88.0% |
