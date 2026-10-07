@@ -1,6 +1,6 @@
 # Relatorio de qualidade da base bruta - RadarGov
 
-Gerado em: 06/10/2026 12:34
+Gerado em: 07/10/2026 12:27
 Arquivo analisado: `despesas_bruto.parquet`
 
 ## Visao geral
