@@ -1,113 +1,97 @@
-# RadarGov - MVP (pipeline de dados)
+# RadarGov (MVP) - versão 1.0
 
-Monitoramento de despesas diretas da Uniao a partir do Portal da Transparencia,
-para o Projeto Final de Curso (MBA IBMEC). Este repositorio cobre a **Sprint 1 -
-Coleta e Engenharia de Dados**.
+Monitoramento de despesas diretas da União a partir do Portal da Transparência,
+desenvolvido como Projeto Final de Curso do MBA (IBMEC). O RadarGov coleta,
+trata e reconcilia os dados todos os dias e os entrega em um dashboard com
+duas visões: **executiva** (indicadores-chave) e **operacional** (filtros,
+variação mensal, ranking de favorecidos e download dos dados).
+
+**Escopo do MVP:** 6 órgãos superiores (Saúde, Educação, Transportes, Cidades,
+Integração e Desenvolvimento Regional, Portos e Aeroportos), janela de
+03/2026 a 08/2026, medida Valor Pago. O ranking de favorecidos cobre apenas a
+área de infraestrutura.
+
+## O que o pipeline faz
 
 ```
-config.py                      -> configuracoes (o unico arquivo que voce edita)
-de_para_orgao_area.csv         -> mapeamento orgao -> area de interesse
-DICIONARIO_DE_DADOS.md         -> origem e significado dos campos
-requirements.txt               -> bibliotecas Python
-src/coleta.py                  -> baixa e consolida a base bruta
-src/qualidade.py               -> valida a base e gera o relatorio de qualidade
-dados/entrada/                 -> arquivos mensais baixados
-dados/bruto/despesas_bruto.parquet   -> base consolidada (saida)
-dados/tratado/relatorio_qualidade.md -> relatorio de qualidade (saida)
-.github/workflows/pipeline.yml -> execucao automatica diaria (GitHub Actions)
+coleta.py            baixa os arquivos mensais de Execução da Despesa
+qualidade.py         valida o schema e gera o relatório de qualidade
+tratamento.py        limpa, padroniza órgãos e cria a base curada
+indicadores.py       calcula os indicadores (caderno_indicadores.md)
+sinalizacao.py       marca variações mensais atípicas (> 50%)
+exporta_powerbi.py   grava os 6 CSV que o dashboard lê
+testes_indicadores.py  testes automatizados, reconciliáveis com a fonte
+coleta_favorecidos.py  ranking de favorecidos da infraestrutura (semanal)
 ```
 
----
+## Estrutura do repositório
 
-## Parte A - Rodar no seu computador (uma vez, para validar)
-
-### 1. Instalar o Python
-- Baixe em https://www.python.org/downloads/ (versao 3.11 ou mais nova).
-- No instalador, **marque "Add python.exe to PATH"** antes de clicar em Install.
-
-### 2. Abrir o terminal na pasta do projeto
-- Abra a pasta `radargov-mvp` no Explorador de Arquivos.
-- Clique na barra de endereco, digite `cmd` e tecle Enter (abre o Prompt de Comando ja na pasta).
-
-### 3. Instalar as bibliotecas
 ```
-pip install -r requirements.txt
+config.py                    configurações (único arquivo de ajuste)
+de_para_orgao_area.csv       mapeamento órgão -> área (por código do órgão)
+requirements.txt             bibliotecas Python
+src/                         scripts do pipeline
+dados/bruto/                 bases brutas em Parquet
+dados/tratado/               bases tratadas e relatórios (md)
+dados/tratado/powerbi/       CSV consumidos pelo dashboard
+dashboard/                   arquivo .pbix e guia de construção
+homologacao/                 roteiro, planilha de registro e resultados da Sprint 4
+.github/workflows/           automação (GitHub Actions)
 ```
 
-### 4. Rodar a coleta
-```
-python src/coleta.py
-```
-O script baixa um arquivo por mes, classifica cada orgao em uma area usando a
-tabela `de_para_orgao_area.csv` (pelo **codigo do orgao superior**) e grava a
-base em `dados/bruto/despesas_bruto.parquet`.
+Documentação: `DICIONARIO_DE_DADOS.md`, `MODELO_DE_DADOS.md`,
+`NOTA_METODOLOGICA.md` e `RECONCILIACAO.md`.
 
-Na primeira execucao ele tambem **imprime o nome real das colunas** e uma lista
-de **orgaos ainda sem classificacao**, ordenada por valor. Se algum orgao dessa
-lista for de saude, educacao ou infraestrutura, adicione uma linha ao
-`de_para_orgao_area.csv` no formato `codigo;nome;area` e rode de novo.
+## Automação (GitHub Actions)
 
-Se os nomes de coluna em `config.py` (`COL_COD_ORGAO`, `COL_ORGAO`,
-`COL_FUNCAO`, `COL_VALOR`) nao baterem com os impressos, ajuste e rode de novo.
+| Workflow | Frequência | O que roda |
+|---|---|---|
+| `pipeline.yml` | diária, 06:00 UTC (03:00 em Brasília) | coleta, qualidade, tratamento, indicadores, sinalização, exportação para o Power BI, testes e commit da base |
+| `favorecidos.yml` | semanal, domingo 07:00 UTC | coleta paginada de favorecidos da infraestrutura (API do Portal) |
 
-Se o download automatico falhar, baixe os arquivos manualmente em
-https://portaldatransparencia.gov.br/download-de-dados/despesas-execucao
-e salve-os na pasta `dados/entrada/`. O nome do arquivo deve conter o mes no
-formato `AAAAMM` (ex.: `202603_...`). Depois rode `python src/coleta.py` de novo.
+O workflow de favorecidos usa o segredo `PORTAL_API_KEY` (chave da API do
+Portal da Transparência), cadastrado em *Settings > Secrets and variables >
+Actions*. O robô precisa de permissão de escrita em *Settings > Actions >
+General > Workflow permissions*.
 
-### 5. Rodar a validacao de qualidade
-```
-python src/qualidade.py
-```
-Isso gera `dados/tratado/relatorio_qualidade.md`.
+## Como rodar no computador
 
-### 6. Conferir a base
-No mesmo terminal:
-```
-python -c "import pandas as pd; d=pd.read_parquet('dados/bruto/despesas_bruto.parquet'); print(d.shape); print(d.head()); print(d.dtypes)"
-```
+1. Instale o Python 3.11 ou mais novo (marque "Add python.exe to PATH").
+2. Na pasta do projeto: `pip install -r requirements.txt`
+3. Rode, nesta ordem: `python src/coleta.py`, `python src/qualidade.py`,
+   `python src/tratamento.py`, `python src/indicadores.py`,
+   `python src/sinalizacao.py`, `python src/exporta_powerbi.py` e
+   `python src/testes_indicadores.py`.
+4. Para os favorecidos, crie um arquivo `.env` com `PORTAL_API_KEY=...` e rode
+   `python src/coleta_favorecidos.py` (leva cerca de uma hora).
 
----
+## Dashboard
 
-## Parte B - Publicar no GitHub e ligar a automacao
+O arquivo `dashboard/RadarGov_Dashboard.pbix` lê os CSV de
+`dados/tratado/powerbi/` diretamente deste repositório. O passo a passo de
+construção está em `dashboard/GUIA_DASHBOARD.md`. Ao abrir o arquivo, use
+*Atualizar* para carregar a base mais recente.
 
-### 1. Criar conta e repositorio
-- Crie uma conta em https://github.com (se ainda nao tiver).
-- Clique em **New** (novo repositorio). De um nome (ex.: `radargov-mvp`),
-  deixe **Private** ou **Public**, e clique em **Create repository**.
+## Homologação (Sprint 4)
 
-### 2. Enviar os arquivos (sem usar Git)
-- Na pagina do repositorio recem-criado, clique em **Add file > Upload files**.
-- Arraste **todo o conteudo** da pasta `radargov-mvp` (nao a pasta em si).
-- Escreva uma mensagem ("primeira versao") e clique em **Commit changes**.
+A pasta `homologacao/` reúne o roteiro, a planilha de registro de tempos e
+respostas e os resultados. Resumo: nas quatro tarefas de análise testadas, o
+tempo caiu de 37 min 21 s (processo manual no Portal) para 2 min 47 s com o
+RadarGov. O teste foi conduzido pelo próprio autor, nos dois papéis; é um
+teste de viabilidade, não uma validação estatística com usuários.
 
-> A pasta `.github` e importante - confirme que ela subiu (o GitHub as vezes
-> esconde pastas que comecam com ponto no Explorador do Windows; se nao
-> aparecer, ative "Itens ocultos" na aba Exibir).
+## Limitações conhecidas
 
-### 3. Dar permissao de escrita ao robo do Actions
-- No repositorio: **Settings > Actions > General**.
-- Em **Workflow permissions**, marque **Read and write permissions** e salve.
-  (Sem isso, o passo que faz commit da base atualizada falha.)
+- Ranking de favorecidos apenas para infraestrutura (o volume de saúde e
+  educação inviabilizou a coleta completa no MVP).
+- Janela de 6 meses (o plano previa 24).
+- Detecção automatizada de anomalias (hipótese H3) fica para a versão 2; a
+  sinalização atual é uma regra estatística simples e não indica irregularidade.
+- Publicação do dashboard na Web depende de conta institucional do Power BI.
+- O Portal revisa valores já publicados; a carga diária absorve essas revisões.
 
-### 4. Rodar o pipeline manualmente
-- Aba **Actions > RadarGov - pipeline de ingestao > Run workflow**.
-- Acompanhe a execucao. Ao terminar com o check verde, a base atualizada
-  aparece em `dados/bruto/` no repositorio.
+## Fonte e uso dos dados
 
-A partir dai o pipeline roda sozinho **todo dia**.
-
----
-
-## Evidencias para a Sprint 1 (secao 4.1.1 do relatorio)
-
-Tire print de:
-
-1. A pagina do **repositorio no GitHub** (lista de arquivos e de commits).
-2. Uma **resposta bem-sucedida** da fonte de dados (o resumo impresso pelo
-   `coleta.py`, ou a tela de download do Portal).
-3. A **base bruta**: saida do comando do passo A.6 (`shape`, `head`, `dtypes`).
-4. A **tabela de-para** preenchida (`de_para_orgao_area.csv`), no formato `codigo;nome;area`.
-5. O **relatorio de qualidade** (`dados/tratado/relatorio_qualidade.md`).
-6. Um **run verde do GitHub Actions** (aba Actions, com o log aberto).
-7. Trechos de codigo: `config.py`, `src/coleta.py`, `.github/workflows/pipeline.yml`.
+Dados do Portal da Transparência do Governo Federal (CGU), publicados com base
+na Lei de Acesso à Informação. O CPF de pessoas físicas é exibido parcialmente
+mascarado, como na fonte.
