@@ -43735,7 +43735,7 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,04.902.979/0001-44,BANCO DA AMAZONIA SA,Entidades Empresariais Privadas,412550903.14
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,00.000.000/0001-91,BANCO DO BRASIL SA,Entidades Empresariais Privadas,279633046.08
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,RB0038166,FOLHA DE PAGAMENTO,Administração Pública,73381705.58
-2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,-8,SEM INFORMACAO,Sem Informação,53112944.53
+2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,-8,SEM INFORMACAO,Sem Informação,53109834.35
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,00.360.305/0001-04,CAIXA ECONOMICA FEDERAL,Entidades Empresariais Privadas,43867176.14
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,60.428.764/0001-04,CONSORCIO CONSTRUTOR AMPLIACAO EIXO NORTE - CCAEN,Entidades Empresariais Privadas,32757256.19
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,09.034.960/0001-47,INSTITUTO DE DESENVOLVIMENTO DO PIAUI - IDEPI,Administração Pública Estadual ou do Distrito Federal,31132476.21
@@ -44546,7 +44546,6 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,42.723.848/0001-99,"BARU SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO S/A",Entidades Empresariais Privadas,9284.14
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,24.870.139/0004-05,TROPICALIA TRANSMISSORA DE ENERGIA S.A.,Entidades Empresariais Privadas,9195.82
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,***.394.323-**,PAULO HENRIQUE LEAO DO NASCIMENTO,Pessoa Física,9148.59
-2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,530029,COORDENACAO-GERAL DE GESTAO DE PESSOAS/MIDR,Agentes Intermediários,9097.29
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,72.006.968/0001-36,K O MAQUINAS AGRICOLAS LTDA,Entidades Empresariais Privadas,9038.4
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,49.607.336/0001-06,FUNDACAO DE DESENVOLVIMENTO DA UNICAMP FUNCAMP,Entidades Sem Fins Lucrativos,8960.0
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,***.173.393-**,JOAO BATISTA FERREIRA DE SOUSA,Pessoa Física,8945.45
@@ -47141,6 +47140,7 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,32.667.691/0001-78,PARINTINS AMAZONAS TRANSMISSORA DE ENERGIA S.A,Entidades Empresariais Privadas,-12554.33
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,12.264.222/0001-09,MUNICIPIO DE SAO MIGUEL DOS CAMPOS,Administração Pública Municipal,-19723.21
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,30.128.386/0001-82,AGENCIA REGULADORA DOS SERVICOS PUBLICOS DELEGADOS DO ESTADO DO PIAUI-AGRESPI,Administração Pública Estadual ou do Distrito Federal,-20275.76
+2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,530029,COORDENACAO-GERAL DE GESTAO DE PESSOAS/MIDR,Agentes Intermediários,-35145.53
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,40.817.926/0001-99,AUTARQUIA TERRITORIAL DISTRITO ESTADUAL DE FERNANDO DE NORONHA,Administração Pública Estadual ou do Distrito Federal,-54892.49
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,13.927.801/0003-00,MUNICIPIO DE SALVADOR,Administração Pública Municipal,-56186.08
 2026-09,2026,9,infraestrutura,53000,Ministério da Integração e do Desenvolvimento Regional,90.180.605/0001-02,GENTE SEGURADORA SA,Entidades Empresariais Privadas,-347638.82
@@ -48018,10 +48018,10 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,37.269.604/0001-48,RLC ENGENHARIA LTDA,Entidades Empresariais Privadas,18124.87
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,52.469.367/0001-52,VOLTTECH COMERCIO E DISTRIBUICAO LTDA,Entidades Empresariais Privadas,18055.1
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,08.071.645/0001-27,CIASPREV - CENTRO DE INTEGRACAO E ASSISTENCIA AOS SERVIDORES PUBLICOS PREVIDENCIA PRIVADA,Entidades Sem Fins Lucrativos,17815.07
-2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.471.344-**,JOSUE OLIVEIRA GOMES,Pessoa Física,17600.0
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,03.102.185/0001-33,COOPERATIVA DE CREDITO DE LIVRE ADMISSAO CENTRO NORDESTE - SICOOB CENTRO NORDESTE,Entidades Empresariais Privadas,17552.26
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.639.504-**,AMARO JOSE FERREIRA DA SILVA,Pessoa Física,17365.92
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.817.864-**,ELISA RAMOS LEAL,Pessoa Física,17363.94
+2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.471.344-**,JOSUE OLIVEIRA GOMES,Pessoa Física,17235.53
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.774.184-**,IVANILDO DE ARAUJO,Pessoa Física,16947.65
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.083.928-**,PAULO CAMPOS DA SILVA,Pessoa Física,16928.63
 2026-09,2026,9,infraestrutura,56000,Ministério das Cidades,***.026.537-**,ANTONIO FRANCISCO DA COSTA E SILVA NETO,Pessoa Física,16761.37
@@ -49554,6 +49554,7 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,02.567.270/0001-04,CLAREAR COMERCIO E SERVICOS DE MAO DE OBRA LTDA - EM RECUPERACAO JUDICIAL,Entidades Empresariais Privadas,100695.58
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,10.364.152/0003-99,LINCE - SEGURANCA PATRIMONIAL LTDA.,Entidades Empresariais Privadas,100271.61
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,15.422.901/0001-49,GMF FROTAS LTDA,Entidades Empresariais Privadas,99834.21
+2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,275075,"VALEC ENGENHARIA, CONSTRUCOES E FERROVIAS S.A",Agentes Intermediários,99664.58
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,62.232.889/0001-90,BANCO DAYCOVAL S.A.,Entidades Empresariais Privadas,99291.94
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,01.612.831/0001-87,MUNICIPIO DE MATOES DO NORTE,Administração Pública Municipal,99145.38
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,09.167.810/0001-01,BMS TREINAMENTOS EMPRESARIAIS LTDA,Entidades Empresariais Privadas,97612.9
@@ -52217,5 +52218,4 @@ ano_mes,ano,mes,area,codigo_orgao,orgao,codigo_favorecido,favorecido,tipo_favore
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,19.791.581/0001-55,COMPANHIA DE DESENVOLVIMENTO ECONOMICO DE MINAS GERAIS - CODEMIG,Entidades Empresariais Privadas,-32850.6
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,00.359.877/0001-73,COMPANHIA IMOBILIARIA DE BRASILIA TERRACAP,Entidades Empresariais Privadas,-38018.43
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,15.519.361/0001-16,DEPARTAMENTO ESTADUAL DE TRANSITO,Administração Pública Estadual ou do Distrito Federal,-39333.25
-2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,275075,"VALEC ENGENHARIA, CONSTRUCOES E FERROVIAS S.A",Agentes Intermediários,-75267.6
 2026-09,2026,9,infraestrutura,39000,Ministério dos Transportes,23.114.901/0001-00,AGENCIA DE REGULACAO DE SERVICOS PUBLICOS DE SANTA CATARINA,Administração Pública Estadual ou do Distrito Federal,-76835.72
